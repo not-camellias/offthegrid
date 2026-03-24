@@ -1,5 +1,37 @@
 /* styles.css */
 
-* {
+/* * {
 	font-family: Arial;
+} */
+
+html{
+	width: 100%;
 }
+
+body{
+	margin: 1rem;
+	background-color: black;
+	color:whitesmoke;
+	font-size: 5rem;
+	overflow: hidden;
+
+	background: url("../img/flame.gif");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+
+	transition-property: transform;
+	transition-duration: 3s;
+}
+
+.grid-container{
+	display:grid;
+	grid-template-columns: repeat(auto-fit, minmax(320px,1fr));
+	margin: 5% 4rem 0 4rem;
+
+}
+
+.last{
+	padding-bottom: 2rem;
+	border-bottom: 2px dotted rgb(220, 200, 180);
+} 
